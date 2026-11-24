@@ -26,7 +26,7 @@ jobs:
 
       - name: Extract project
         run: |
-          unzip SensiX-project.zip -d src
+         unzip "SensiX-project (2).zip" -d src
 
       - name: Build native library
         working-directory: src/SensiX
